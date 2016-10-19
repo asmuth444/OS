@@ -1,0 +1,16 @@
+Threads
+Easier to make as compared to process.
+Thread Library name => pthread.h
+each process by default has thread
+data type for thread id  is pthread_t
+how to make thread?
+pthread_create(pthread_t var/id,thread attributes,thread function,thread function argument pointer)
+
+for running pthread use
+gcc -pthread -o executable file name
+
+so as to make the new thread join the new thread use pthread_join(name of thread,pointer to the return value of the function)
+
+for passing the variable to the thread use global variable.
+ 
+

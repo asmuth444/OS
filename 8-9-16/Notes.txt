@@ -1,0 +1,12 @@
+fork() -> for creating a new process for any process that is running there.
+fork() returns 0 to child and child process id to parent process.
+pid_t is the data type for pid.
+getpid() -> returns pid of that process.
+getppid() -> returns pid of parent.
+if pid < 0 error
+if pid == 0 child process
+if pid > 0 parent process
+n = no. of fork() statements
+2^n = Total no. of processes created
+(2^n)-1 = Total no. of childs created
+
