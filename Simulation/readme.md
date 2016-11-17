@@ -1,7 +1,8 @@
-Use the reource.py file with test file.
-test file desciption:
-no. of resources
-no. of processes
-resource maximum matrix
-maximum matrix
-allocation matrix
+<h1>Usage Instructions for resource.py</h1>
+Use the resource.py file with test file.<br />
+test file desciption:<br />
+=> no. of resources(line 1)<br />
+=> no. of processes(line 2)<br />
+=> resource maximum matrix(line 3)<br />
+=> maximum matrix<br />
+=> allocation matrix<br />
