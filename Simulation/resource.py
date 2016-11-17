@@ -5,7 +5,7 @@ no_of_processes = int(lines[1])
 rmax = list(map(int,lines[2].split()))
 print "Resource Max Matrix:"
 print " ".join(map(str,rmax))
-nmax = [] 
+nmax = []
 alloc = []
 need = []
 avail = []
